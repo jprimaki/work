@@ -1,0 +1,18 @@
+<h3 mat-dialog-title>{{ type }} {{ localData.contactName}}</h3>
+<div class="example-container">
+  <mat-form-field class="form-fullwidth">
+    <input matInput placeholder="Input" placeholder="Nome" [value]="localData.contactName">
+  </mat-form-field>
+  <mat-form-field class="form-fullwidth">
+    <input matInput placeholder="Input" placeholder="Telefone" [value]="localData.phone">
+  </mat-form-field>  
+  <mat-form-field class="form-fullwidth">
+    <input matInput placeholder="Input" placeholder="Email" [value]="localData.email">
+  </mat-form-field>    
+</div>
+
+<div mat-dialog-actions>  
+  <button mat-button cdkFocusInitial>{{ buttonName }}</button>
+  <button mat-button (click)="closeDialog()">Fechar</button>
+</div>
+

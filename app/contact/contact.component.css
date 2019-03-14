@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+  
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+}   
+
+.buttons-principal button,
+.buttons-principal a {
+  margin-right: 8px;
+} 
+
+.buttons-principal {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
